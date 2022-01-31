@@ -47,6 +47,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.index-logo {
+  margin: auto 0;
+}
+
 .main-title {
   font-size: 30px;
   line-height: 36px;
@@ -116,6 +120,7 @@ body {
   background-color: #756257;
   border-radius: 4px;
   color: #fff;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -127,6 +132,9 @@ body {
 
 .email {
   text-align: center;
+}
+
+.email-index {
   color: #fff;
   background-image: url(/images/email-background.jpg);
   background-size: 100% auto;
@@ -170,4 +178,114 @@ body {
 
 .visually-hidden {
   display: none;
+}
+
+/*catalog.html*/
+
+.main-inner {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.inner-filter {
+  background-image: url(/images/catalog-background.jpg);
+  background-color: #000;
+  color: #fff;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.button-submit {
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #83b3d3;
+}
+
+.button-reset {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.select-results {
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.button-mode {
+  text-decoration: none;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.button-mode-selected {
+  border: 2px solid #000;
+}
+
+.hotel-card-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.hotel-card-title {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.button-more {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.button-favorite {
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #83b3d3;
+}
+
+.button-favorite-pushed {
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #7db54f;
+}
+
+.text-style-rating {
+  font-size: 16px;
+  line-height: 21px;
+  background-color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.pagination-show-more {
+  font-size: 20px;
+  line-height: 26px;
+  background-color: #83b3d3;
+}
+
+.pagination-link {
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #83b3d3;
+  text-decoration: none;
+}
+
+.pagination-current {
+  color: #000;
+  background-color: #f2f2f2;
 }
