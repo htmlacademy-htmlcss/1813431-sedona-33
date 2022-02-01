@@ -18,12 +18,12 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #333333;
 }
 
 .navigation-link {
-  color: #000;
+  color: #000000;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -35,13 +35,13 @@ body {
   line-height: 20px;
   background-color: #756257;
   border-radius: 4px;
-  color: #fff;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .main-index {
   background-image: url("/images/index-background.jpg");
-  background-color: #fff;
+  background-color: #ffffff;
   color: #333333;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -72,12 +72,12 @@ body {
 .advantages-title {
   font-size: 24px;
   line-height: 28px;
-  color: #000;
+  color: #000000;
   text-transform: uppercase;
 }
 
 .white-text {
-  color: #fff;
+  color: #ffffff;
 }
 
 .advantages-description {
@@ -87,7 +87,7 @@ body {
 
 .advantages-item-navy {
   background-color: #83b3d3;
-  color: #fff;
+  color: #ffffff;
 }
 
 .advantages-item-sky {
@@ -103,7 +103,7 @@ body {
 }
 
 .search-title {
-  color: #000;
+  color: #000000;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -119,7 +119,7 @@ body {
 .button {
   background-color: #756257;
   border-radius: 4px;
-  color: #fff;
+  color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -135,7 +135,7 @@ body {
 }
 
 .email-index {
-  color: #fff;
+  color: #ffffff;
   background-image: url(/images/email-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -171,13 +171,22 @@ body {
 .contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  color: #000;
+  color: #000000;
   font-style: normal;
   text-decoration: none;
 }
 
 .visually-hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*catalog.html*/
@@ -189,8 +198,8 @@ body {
 
 .inner-filter {
   background-image: url(/images/catalog-background.jpg);
-  background-color: #000;
-  color: #fff;
+  background-color: #000000;
+  color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -224,7 +233,7 @@ body {
   line-height: 39px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000;
+  color: #000000;
 }
 
 .button-mode {
@@ -234,12 +243,12 @@ body {
 }
 
 .button-mode-selected {
-  border: 2px solid #000;
+  border: 2px solid #000000;
 }
 
 .hotel-card-link {
   text-decoration: none;
-  color: #000;
+  color: #000000;
 }
 
 .hotel-card-title {
@@ -280,12 +289,12 @@ body {
 .pagination-link {
   font-size: 20px;
   line-height: 26px;
-  color: #fff;
+  color: #ffffff;
   background-color: #83b3d3;
   text-decoration: none;
 }
 
 .pagination-current {
-  color: #000;
+  color: #000000;
   background-color: #f2f2f2;
 }
