@@ -267,8 +267,11 @@ body {
   line-height: 78px;
 }
 
-.catalog-hotel {
+.catalog-filter {
   display: flex;
+}
+
+.catalog-hotel {
 }
 
 .catalog-filter-title {
@@ -290,12 +293,21 @@ body {
   text-transform: none;
 }
 
+.select-container {
+  display: flex;
+}
+
 .select-results {
   font-size: 30px;
   line-height: 39px;
   font-weight: 700;
   text-transform: uppercase;
   color: #000000;
+}
+
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .button-mode {
@@ -342,10 +354,23 @@ body {
   text-transform: uppercase;
 }
 
+.pagination-container {
+  display: flex;
+}
+
+.pagination {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
 .pagination-show-more {
+  width: 619px;
+  display: block;
   font-size: 20px;
   line-height: 26px;
   background-color: #83b3d3;
+  margin: 0 auto;
 }
 
 .pagination-link {
