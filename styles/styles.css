@@ -651,6 +651,15 @@ body {
   line-height: 23px;
 }
 
+.select-control:hover {
+  box-shadow: inset 0 0 0 3px #83b3d3;
+}
+
+.select-control:focus {
+  box-shadow: inset 0 0 0 3px #83b3d3;
+  outline: none;
+}
+
 .mode-container {
   margin-left: auto;
 }
