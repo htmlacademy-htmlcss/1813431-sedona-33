@@ -515,8 +515,6 @@ body {
   overflow: hidden;
 }
 
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 .modal-container {
   position: fixed;
   top: 0;
@@ -542,8 +540,6 @@ body {
 
 .modal-close-button {
   position: absolute;
-  /* margin-top: 54px;
-  margin-right: 70px; */
   top: 54px;
   right: 70px;
   width: 53px;
@@ -717,7 +713,6 @@ body {
   background-color: transparent;
   padding: 0;
   margin: 0;
-  /* display: block; */
 }
 
 .tooltip-icon {
@@ -746,7 +741,6 @@ body {
   width: 256px;
   display: block;
   padding: 15px 18px 18px 22px;
-  /* margin-top: 15px; */
   font-size: 16px;
   line-height: 20px;
   font-weight: normal;
@@ -765,9 +759,9 @@ body {
   display: block;
 }
 
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 
 /*catalog.html*/
 
@@ -804,6 +798,25 @@ body {
   list-style-type: none;
 }
 
+.breadcrumbs-home-image {
+  fill: #ffffff;
+  /* width: 28px;
+  height: 27px; */
+}
+
+.breadcrumbs-link {
+  display: block;
+}
+
+.breadcrumbs-link:hover {
+  opacity: 0.3;
+}
+
+.breadcrumbs-link:focus {
+  box-shadow: inset 0 0 0 3px #83b3d3;
+  outline: none;
+}
+
 .breadcrumbs-item {
   margin-right: 26px;
   position: relative;
@@ -817,6 +830,7 @@ body {
   height: 8px;
   background-image: url(/images/icon/icon-arrow-right.svg);
   background-repeat: no-repeat;
+  opacity: 0.3;
   content: "";
 }
 
@@ -921,10 +935,10 @@ body {
 }
 
 /* Range */
+
 .range-wrapper-inputs {
   display: grid;
   grid-template-columns: 143.5px 143.5px;
-  /* position: relative; */
 }
 
 .range-input {
@@ -966,10 +980,6 @@ body {
 }
 
 .range-wrapper-inputs {
-  /* width: 287px;
-  display: flex;
-  border: 2px solid #ffffff;
-  border-radius: 4px; */
   margin-bottom: 32px;
 }
 
@@ -977,23 +987,6 @@ body {
   display: flex;
   position: relative;
 }
-
-/* .catalog-filter-label:first-child {
-  border-right: 2px solid #ffffff;
-} */
-
-/* .range-input {
-  width: 70px;
-  color: #ffffff;
-  font: inherit;
-  background-color: transparent;
-  border: none;
-  appearance: textfield;
-} */
-
-/* .range-input + span {
-  opacity: 0.3;
-} */
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
@@ -1127,7 +1120,7 @@ body {
   border-radius: 4px;
   appearance: none;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .select-control:hover {
   box-shadow: inset 0 0 0 3px #83b3d3;
 }
