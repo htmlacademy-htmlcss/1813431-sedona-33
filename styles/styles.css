@@ -738,8 +738,9 @@ body {
 }
 
 .tooltip-text {
+  position: relative;
   width: 256px;
-  display: block;
+  display: inline-block;
   padding: 15px 18px 18px 22px;
   font-size: 16px;
   line-height: 20px;
@@ -751,8 +752,18 @@ body {
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
-  display: none;
+  /* display: none; */
 }
+
+/* .tooltip-text::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #7db54f;
+  background-image: url(/images/tooltip-trinagle.svg);
+  background-repeat: no-repeat;
+  z-index: 2;
+} */
 
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
@@ -800,32 +811,18 @@ body {
 
 .breadcrumbs-home-image {
   fill: #ffffff;
-  /* width: 28px;
-  height: 27px; */
-}
-
-.breadcrumbs-link {
-  display: block;
-}
-
-.breadcrumbs-link:hover {
-  opacity: 0.3;
-}
-
-.breadcrumbs-link:focus {
-  box-shadow: inset 0 0 0 3px #83b3d3;
-  outline: none;
 }
 
 .breadcrumbs-item {
-  margin-right: 26px;
+  margin-right: 12px;
   position: relative;
+  left: -4px;
 }
 
 .breadcrumbs-item::after {
   position: absolute;
-  top: 9px;
-  right: -17px;
+  top: 11px;
+  left: 30px;
   width: 5px;
   height: 8px;
   background-image: url(/images/icon/icon-arrow-right.svg);
@@ -836,6 +833,23 @@ body {
 
 .breadcrumbs-item:last-child::after {
   content: none;
+}
+
+.breadcrumbs-link {
+  display: block;
+  padding: 2px 7px 3px;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.breadcrumbs-link:hover {
+  opacity: 0.3;
+}
+
+.breadcrumbs-link:focus {
+  box-shadow: inset 0 0 0 3px #83b3d3;
+  border-radius: 4px;
+  outline: none;
 }
 
 /*Фильтр*/
@@ -961,6 +975,7 @@ body {
 .max-range-input {
   border-radius: 0 4px 4px 0;
   left: -2px;
+  z-index: 2;
 }
 
 .range-input:hover {
