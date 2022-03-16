@@ -58,11 +58,15 @@
 
     <main class="main-container main-index">
       <div class="page-container">
-        <h1 class="visually-hidden">Сайт города Седона</h1>
-        <img class="index-logo" src="images/welcome-texts.svg" width="458" height="352" alt="Логотип города Седона">
-        <p class="main-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-        <p class="advantages-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-
+        <div class="page-container-header">
+          <h1 class="visually-hidden">Сайт города Седона</h1>
+          <img class="index-logo" src="images/welcome-texts.svg" width="458" height="352" alt="Логотип города Седона">
+          <svg class="index-background-form" width="1200" height="57" viewBox="0 0 1200 57" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 57V0L250 24V0L600 57L950 0V24L1200 0V57H0Z"/>
+          </svg>
+          <p class="main-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+          <p class="advantages-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        </div>
         <!--Список преимуществ-->
 
         <section class="advantages">
@@ -222,14 +226,14 @@
             <div class="field-group">
               <span class="modal-description">Дата заезда:</span>
               <div class="input-modal-container">
-                <input class="input-form-field field" type="date" placeholder="27 апреля 2020">
+                <input class="input-form-field" type="text" placeholder="27 апреля 2020">
                 <span class="input-hint warning">Мы не можем отправить вас в прошлое.</span>
               </div>
             </div>
             <div class="field-group">
               <span class="modal-description">Дата выезда:</span>
               <div class="input-modal-container">
-                <input class="input-form-field field" type="date"placeholder="1 сентября 2021">
+                <input class="input-form-field" type="text"placeholder="1 сентября 2021">
                 <span class="input-hint">На эти даты есть свободные номера. Пока есть.</span>
               </div>
             </div>
@@ -259,7 +263,7 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z"/>
                   </svg>
                 </button>
-                <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                  <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
               </span>
               </span>
               <div class="quantity">
