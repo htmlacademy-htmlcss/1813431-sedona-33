@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-
+    
     <!--Шапка-->
     
     <header class="page-header">
@@ -58,11 +58,15 @@
 
     <main class="main-container main-index">
       <div class="page-container">
-        <h1 class="visually-hidden">Сайт города Седона</h1>
-        <img class="index-logo" src="images/welcome-texts.svg" width="458" height="352" alt="Логотип города Седона">
-        <p class="main-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
-        <p class="advantages-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
-
+        <div class="page-container-header">
+          <h1 class="visually-hidden">Сайт города Седона</h1>
+          <img class="index-logo" src="images/welcome-texts.svg" width="458" height="352" alt="Логотип города Седона">
+          <svg class="index-background-form" width="1200" height="57" viewBox="0 0 1200 57" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 57V0L250 24V0L600 57L950 0V24L1200 0V57H0Z"/>
+          </svg>
+          <p class="main-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+          <p class="advantages-text">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+        </div>
         <!--Список преимуществ-->
 
         <section class="advantages">
@@ -209,5 +213,79 @@
         </div>
       </div>
     </footer>
+
+    <!--Модальное окно-->
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-auth">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <form class="auth-form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="field-group">
+              <span class="modal-description">Дата заезда:</span>
+              <div class="input-modal-container">
+                <input class="input-form-field" type="text" placeholder="27 апреля 2020">
+                <span class="input-hint warning">Мы не можем отправить вас в прошлое.</span>
+              </div>
+            </div>
+            <div class="field-group">
+              <span class="modal-description">Дата выезда:</span>
+              <div class="input-modal-container">
+                <input class="input-form-field" type="text"placeholder="1 сентября 2021">
+                <span class="input-hint">На эти даты есть свободные номера. Пока есть.</span>
+              </div>
+            </div>
+            <div class="field-group-container">
+              <span class="modal-description">Взрослые:</span>
+              <div class="quantity">
+                <button class="math-sign-button">
+                  <svg class="math-sign-image" width="13" height="1" viewBox="0 0 13 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0L0 2L14 2V0L0 0Z"/>
+                  </svg>
+                </button>
+                <input class="number adult-quantity" type="number" value="2"/>
+                <button class="math-sign-button">
+                  <svg class="math-sign-image" width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z"/>
+                  </svg>
+                </button>
+              </div>
+              <span class="modal-description children">Дети:
+                
+              <span class="tooltip">
+                <button class="tooltip-toggle" type="button">
+                  <svg class="tooltip-icon" width="25" height="25" viewBox="0 0 25 25" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12.5" cy="12.5" r="12.5"/>
+                  </svg>
+                  <svg class="i" width="1" height="6" viewBox="0 0 2 12" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H2V2H0V0ZM2 12H0V3H2V12Z"/>
+                  </svg>
+                </button>
+                  <span class="tooltip-text">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+              </span>
+              </span>
+              <div class="quantity">
+                <button class="math-sign-button">
+                  <svg class="math-sign-image" width="13" height="1" viewBox="0 0 13 1" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0L0 2L14 2V0L0 0Z" />
+                  </svg>
+                </button>
+                <input class="number adult-quantity" type="number" value="1"/>
+                <button class="math-sign-button">
+                  <svg class="math-sign-image" width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6V6H0V7H6V13H7V7H13V6Z" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <a class="button button-modal" href="#">Найти</a>
+          </form>
+        </section>
+      </div>
+    </div>
+
   </body>
 </html>
