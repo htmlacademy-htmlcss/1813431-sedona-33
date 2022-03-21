@@ -100,6 +100,9 @@ body {
   color: rgba(117, 98, 87, 0.3);
 }
 
+.navigation-link:oncli {
+}
+
 .navigation-icon {
   position: absolute;
   top: 0;
@@ -417,7 +420,7 @@ body {
 
 .email-description {
   padding: 0;
-  margin-bottom: 45px;
+  margin-bottom: 46px;
 }
 
 .email-form {
@@ -497,7 +500,7 @@ body {
   justify-content: flex-start;
   width: 180px;
   margin: 0;
-  margin-top: 35px;
+  margin-top: 33px;
   margin-bottom: 54px;
   padding: 0;
   list-style-type: none;
@@ -544,7 +547,7 @@ body {
 
 .contacts-phone {
   position: relative;
-  bottom: 9px;
+  bottom: 11px;
   right: 27px;
   font-size: 40px;
   line-height: 40px;
@@ -573,7 +576,7 @@ body {
 
 .footer-logo {
   position: relative;
-  bottom: 8px;
+  bottom: 10px;
   align-self: center;
 }
 
@@ -661,6 +664,7 @@ body {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  letter-spacing: -0.2px;
 }
 
 .field-group {
@@ -1665,5 +1669,4 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
 }
