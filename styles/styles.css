@@ -766,7 +766,6 @@ body {
 
 .input-form-field::-moz-placeholder {
   color: #000000;
-
   opacity: 1;
 }
 
@@ -1015,7 +1014,7 @@ body {
 }
 
 .inner-header {
-  margin-bottom: 38px;
+  margin-bottom: 37px;
 }
 
 .inner-filter {
@@ -1205,7 +1204,7 @@ body {
 .range-wrapper-inputs {
   display: grid;
   grid-template-columns: 143.5px 143.5px;
-  margin-bottom: 27px;
+  margin-bottom: 28px;
 }
 
 .range-input {
@@ -1325,7 +1324,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 63px;
+  margin-top: 65px;
 }
 
 .button-submit {
@@ -1393,12 +1392,12 @@ body {
 .select-container {
   display: flex;
   padding: 38px 71px 0 71px;
-  margin-bottom: 45px;
+  margin-bottom: 44px;
 }
 
 .select-results {
   margin: 0;
-  margin-top: 4px;
+  margin-top: 3px;
   margin-right: 192px;
   font-size: 30px;
   line-height: 39px;
@@ -1413,6 +1412,7 @@ body {
 }
 
 .select-control {
+  position: relative;
   width: 100%;
   margin-left: auto;
   padding: 11px 17px 13px;
@@ -1480,11 +1480,6 @@ body {
 
 .button-mode:focus {
   border: 2px solid #83b3d3;
-  outline: none;
-}
-
-.button-mode:focus {
-  border: 2px solid #000000;
   outline: none;
 }
 
@@ -1654,8 +1649,8 @@ body {
 
 .button-more-wrapper {
   width: 1055px;
-  margin: 0 72px 28px;
-  padding: 30px 0;
+  margin: 0 72px 30px;
+  padding: 29px 0;
   border-top: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
 }
@@ -1764,7 +1759,7 @@ body {
 .select-control-number {
   width: 160px;
   margin-left: auto;
-  padding: 13px 123px 13px 13px;
+  padding: 9px 123px 12px 15px;
   border-color: #e6e6e6;
   border-radius: 4px;
   font-size: 18px;
